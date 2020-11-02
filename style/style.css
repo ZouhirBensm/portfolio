@@ -68,7 +68,7 @@ section li h4 {
 section ul > li p {
 	margin: 4vw 4vw;
 	padding: 1vw 1vw;
-	font-size: 2vh;
+	font-size: 3vh;
 	background-color: rgba(200, 0, 0, 0.1);
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
