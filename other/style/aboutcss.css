@@ -51,7 +51,7 @@ section {
 	top: 12vh;
 }
 
-section > p > img {
+section > div > p > img {
 	height: 80vh;
 	width: 60vh;
 	float: left;
@@ -66,8 +66,13 @@ section a:link{
 	color: darkgreen;
 }
 
+div.container {
+	margin: 4.3vw 8vw 4.3vw 4.3vw;	
+}
+
+
 section a:visited{
-	color: red;
+	color: green;
 }
 
 img {
