@@ -45,7 +45,10 @@ article>div.skills {
     flex-direction: row;
     width:  98.5vw;
     justify-content: space-around;
-    
+}
+
+article>div.skills img:nth-child(3) {
+    width:  6vw;
 }
 
 div.skills>img {
@@ -66,12 +69,29 @@ header a:hover {
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-section a:link {
-	color: darkgreen;
+ul>li p {
+	position: relative;
 }
 
+section a:link { 
+	display: inline-block;
+	color: white;
+	background-color: rgba(0,114,41);
+	padding: 5vh;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50px;
+}
+
+
 section a:visited {
-	color: green;
+	display: inline-block;
+	color: white;
+	background-color: rgba(0,114,41);
+	padding: 5vh;
+	text-align: center;
+	text-decoration: none;
+
 }
 
 section {
@@ -81,6 +101,11 @@ section {
 
 section li h4 > img {
 	width: 3vw;
+	height: 3vw;
+}
+
+section li h4 > img.narrow {
+	width: 2.1vw;
 	height: 3vw;
 }
 
@@ -127,21 +152,11 @@ section > h4 {
 	text-align: center;
 }
 
-p.email {
-	font-size: 2vw;
-	color: darkgreen;
-	text-align: center;
-}
 
 footer {
 	position: relative;
 	top: 12vh;
 }
-
-
-
-
-
 
 
 br {
