@@ -73,28 +73,35 @@ ul>li p {
 	position: relative;
 }
 
-section a:link { 
+section a:link {
 	display: inline-block;
 	color: white;
-	background-color: rgba(0,114,41);
+	background-color: #7DCD85;
 	padding: 5vh;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 50px;
 }
 
-
-section a:visited {
+section a:hover { 
 	display: inline-block;
 	color: white;
-	background-color: rgba(0,114,41);
+	background-color: darkgreen;
 	padding: 5vh;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 50px;
-
 }
 
+a:visited {
+	display: inline-block;
+	color: white;
+	background-color: #4E6E58;
+	padding: 5vh;
+	text-align: center;
+	text-decoration: none;
+
+}
 section {
 	position: relative;
 	top: 12vh;
